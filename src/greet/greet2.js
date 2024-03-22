@@ -3,8 +3,8 @@ import { Component } from "react";
 
 class Greet2 extends Component{
     render(){
-        let a = "Bienvenue chers fans"
-        return <h1>{a}</h1>
+        // let a = "Bienvenue chers fans"
+        return <h1>{this.props.name}</h1>
     }
 }
 

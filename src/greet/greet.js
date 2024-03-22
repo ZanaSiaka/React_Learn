@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 
 
 function Greet(){
-    return <h1> Hello à tous !!!</h1>
+    const [state, setState] = useState(1)
+    console.log(state)
+    return (
+        <div>
+            <h1>{state}</h1>
+            <button onClick={()=> setState(state + 1)}>Clique oim</button>
+        </div>
+    )
 }
 
 export default Greet;
