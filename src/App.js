@@ -4,15 +4,19 @@ import  Greet from './greet/greet';
 import Greet2 from './greet/greet2'
 import NoJsx from './greet/nojsx';
 import Message from './greet/message'
+import Fonction from './greet/Fonction'
+import Classe from './greet/Classe';
 
 function App() {
   return (
     <div className="App">
-      < Greet />
+      {/* < Greet />
       <h1> Y a quoi</h1>
       < Greet2 name="zana"/>
-      <NoJsx yaya="Monsieur">Un enfant quelconque </NoJsx >
-      < Message name="zana"/>
+      < Message name="zana"/> */}
+      <NoJsx name="Monsieur">Un enfant quelconque </NoJsx >
+      <Fonction />
+      <Classe />
     </div>
   );
 }
