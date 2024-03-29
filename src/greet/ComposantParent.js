@@ -7,9 +7,9 @@ class ComposantParent extends Component {
 
     constructor(props) {
 
-        var zana = 2
+        var zana = 'Okak'
         console.log(zana)
-        
+
         super(props);
 
         this.state = {
