@@ -1,9 +1,9 @@
 import React from 'react'
 
-function ComposantEnfant(props) {
+function ComposantEnfant({saluerHand}) {
   return (
     <div>
-        <button onClick={props.saluerHand}>Appuyer Ici</button>
+        <button onClick={() => saluerHand('child')}>Appuyer Ici</button>
     </div>
   )
 }
