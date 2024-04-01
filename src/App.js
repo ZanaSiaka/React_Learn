@@ -7,7 +7,10 @@
 // import Fonction from './greet/Fonction'
 // import Classe from './greet/Classe';
 // import Liaison from './greet/Liaison';
-import ComposantParent from './greet/ComposantParent';
+// import ComposantParent from './greet/ComposantParent';
+import Liste from './greet/Liste';
+import SaluerUser from './greet/saluerUser';
+
 
 function App() {
   return (
@@ -18,9 +21,10 @@ function App() {
       < Message name="zana"/>
       <NoJsx name="Monsieur">Un enfant quelconque </NoJsx >
       <Fonction />
-      <Classe />
-      <Liaison /> */}
-      <ComposantParent />
+      <Classe /><Liaison /> */}
+      <SaluerUser />
+      {/* <ComposantParent /> */}
+      <Liste/>
     </div>
   );
 }
