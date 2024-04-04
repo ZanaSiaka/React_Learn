@@ -7,7 +7,7 @@ function NoJsx(props){
     const {name} = props
     return (
         <nav>
-            <a href="#"> {name} </a>
+            <div>{name}</div>
 
         </nav>
     )

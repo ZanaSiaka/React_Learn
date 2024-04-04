@@ -1,34 +1,20 @@
 import React from 'react'
+import Ok from './ok'
 
-function Liste() {
+function Liste(props) {
 
-    const prs = [
-        {
-            id: 1,
-            name: 'Sigata',
-            age: 18,
-            skill: 'DevOps'
-        },
-        {
-            id: 2,
-            name: 'Salimata',
-            age: 15,
-            skill: 'MotionDesigner'
-        },
-        {
-            id: 3,
-            name: 'Ursula',
-            age: 21,
-            skill: 'Pharmacienne'
-        }
+    const noms = ['Sigata', 'Manue']
 
-    ]
+    
 
-  return (
+
+
+  return(
+    
+
     <div>
         {
-            prs.map(perso => <h2>Je suis {perso.name}, j'ai {perso.age} ans et je suis {perso.skill} </h2>
-)
+          <Ok nom ={noms}/>
         }
     </div>
   )
