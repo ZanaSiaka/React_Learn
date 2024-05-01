@@ -7,7 +7,7 @@ import './App.css';
 // import Fonction from './greet/Fonction'
 // import Classe from './greet/Classe';
 // import Liaison from './greet/Liaison';
-// import ComposantParent from './greet/ComposantParent';
+import ComposantParent from './greet/ComposantParent';
 import Formulaire from './greet/formulaire';
 // import Liste from './greet/Liste';
 // import SaluerUser from './greet/saluerUser';
@@ -23,8 +23,8 @@ function App() {
       <NoJsx name="Monsieur">Un enfant quelconque </NoJsx >
       <Fonction />
       <Classe /><Liaison />
-      <SaluerUser />
-      <ComposantParent /> */}
+      <SaluerUser /> */}
+      <ComposantParent />
       {/* <Liste/> */}
       <Formulaire/>
     </div>

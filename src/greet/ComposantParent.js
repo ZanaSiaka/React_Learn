@@ -24,7 +24,7 @@ class ComposantParent extends Component {
     saluerParent(childName) {
         alert(`Bonjour ${this.state.parentName} from ${childName}`);
     }
-
+ 
     render() {
         return (
             <div>

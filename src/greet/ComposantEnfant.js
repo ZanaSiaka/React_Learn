@@ -3,7 +3,7 @@ import React from 'react'
 function ComposantEnfant({saluerHand}) {
   return (
     <div>
-        <button onClick={() => saluerHand('child')}>Appuyer Ici</button>
+        <button onClick={() => saluerHand('Zana')}>Appuyer Ici</button>
     </div>
   )
 }
