@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
-import LifeCycleA from './greet/LifeCycleA';
+import UpdateA from './greet/UpdateA';
+// import LifeCycleA from './greet/LifeCycleA';
 // import  Greet from './greet/greet';
 // import Greet2 from './greet/greet2'
 // import NoJsx from './greet/nojsx';
@@ -28,7 +29,8 @@ function App() {
       {/* <ComposantParent /> */}
       {/* <Liste/> */}
       {/* <Formulaire/> */}
-      <LifeCycleA />
+      {/* <LifeCycleA /> */}
+      <UpdateA />
     </div>
   );
 }
