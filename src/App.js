@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import LifeCycleA from './greet/LifeCycleA';
 // import  Greet from './greet/greet';
 // import Greet2 from './greet/greet2'
 // import NoJsx from './greet/nojsx';
@@ -7,8 +8,8 @@ import './App.css';
 // import Fonction from './greet/Fonction'
 // import Classe from './greet/Classe';
 // import Liaison from './greet/Liaison';
-import ComposantParent from './greet/ComposantParent';
-import Formulaire from './greet/formulaire';
+// import ComposantParent from './greet/ComposantParent';
+// import Formulaire from './greet/formulaire';
 // import Liste from './greet/Liste';
 // import SaluerUser from './greet/saluerUser';
 
@@ -24,9 +25,10 @@ function App() {
       <Fonction />
       <Classe /><Liaison />
       <SaluerUser /> */}
-      <ComposantParent />
+      {/* <ComposantParent /> */}
       {/* <Liste/> */}
-      <Formulaire/>
+      {/* <Formulaire/> */}
+      <LifeCycleA />
     </div>
   );
 }
