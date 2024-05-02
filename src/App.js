@@ -1,6 +1,8 @@
 // import logo from './logo.svg';
+import FragmentDemo from './greet/FragmentDemo';
 import './App.css';
-import UpdateA from './greet/UpdateA';
+import FragmentTable from './greet/FragmentTable';
+// import UpdateA from './greet/UpdateA';
 // import LifeCycleA from './greet/LifeCycleA';
 // import  Greet from './greet/greet';
 // import Greet2 from './greet/greet2'
@@ -30,7 +32,9 @@ function App() {
       {/* <Liste/> */}
       {/* <Formulaire/> */}
       {/* <LifeCycleA /> */}
-      <UpdateA />
+      {/* <UpdateA /> */}
+      <FragmentDemo />
+      <FragmentTable />
     </div>
   );
 }
