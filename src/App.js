@@ -1,7 +1,9 @@
 // import logo from './logo.svg';
-import FragmentDemo from './greet/FragmentDemo';
+// import FragmentDemo from './greet/FragmentDemo';
 import './App.css';
-import FragmentTable from './greet/FragmentTable';
+import ComposantParentPur from './greet/ComposantParentPur';
+// import ComposantPur from './greet/ComposantPur';
+// import FragmentTable from './greet/FragmentTable';
 // import UpdateA from './greet/UpdateA';
 // import LifeCycleA from './greet/LifeCycleA';
 // import  Greet from './greet/greet';
@@ -33,8 +35,9 @@ function App() {
       {/* <Formulaire/> */}
       {/* <LifeCycleA /> */}
       {/* <UpdateA /> */}
-      <FragmentDemo />
-      <FragmentTable />
+      {/* <FragmentDemo /> */}
+      {/* <FragmentTable /> */}
+      <ComposantParentPur />
     </div>
   );
 }
