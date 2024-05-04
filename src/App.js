@@ -1,7 +1,8 @@
 // import logo from './logo.svg';
 // import FragmentDemo from './greet/FragmentDemo';
 import './App.css';
-import ComposantParentPur from './greet/ComposantParentPur';
+import DemoRef from './greet/DemoRef';
+// import ComposantParentPur from './greet/ComposantParentPur';
 // import ComposantPur from './greet/ComposantPur';
 // import FragmentTable from './greet/FragmentTable';
 // import UpdateA from './greet/UpdateA';
@@ -37,7 +38,8 @@ function App() {
       {/* <UpdateA /> */}
       {/* <FragmentDemo /> */}
       {/* <FragmentTable /> */}
-      <ComposantParentPur />
+      {/* <ComposantParentPur /> */}
+      <DemoRef />
     </div>
   );
 }
