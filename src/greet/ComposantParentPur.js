@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import ComposantSimple from './ComposantSimple'
-import ComposantPur from './ComposantPur'
+// import ComposantSimple from './ComposantSimple'
+// import ComposantPur from './ComposantPur'
+import MemoComp from './MemoComp'
 
 class ComposantParentPur extends Component {
 
@@ -26,8 +27,9 @@ class ComposantParentPur extends Component {
     return (
       <div>
         Composant parent pour le test de pur composant 
-        <ComposantSimple nom = {this.state.nom}></ComposantSimple>
-        <ComposantPur nom = {this.state.nom}></ComposantPur>
+        <MemoComp nom = {this.state.nom}/>
+        {/* <ComposantSimple nom = {this.state.nom}></ComposantSimple>
+        <ComposantPur nom = {this.state.nom}></ComposantPur> */}
       </div>
     )
   }
