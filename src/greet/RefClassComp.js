@@ -1,4 +1,4 @@
-import React, { Component, createRef } from 'react'
+import React, { Component } from 'react'
 
 class RefClassComp extends Component {
 
@@ -9,7 +9,7 @@ class RefClassComp extends Component {
     }
 
     focusInput(){
-        this.classRef.current.focus()
+      this.classRef.current.focus()
     }
     
 
