@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import RefClassComp from './RefClassComp'
 
 class FocusInput extends Component {
 
@@ -15,6 +16,7 @@ class FocusInput extends Component {
   render() {
     return (
       <div>
+        <RefClassComp />
         <input ref={this.componentRef} />
         <button onClick={this.buttonHandler}>FocusInput</button>
       </div>

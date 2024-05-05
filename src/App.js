@@ -1,7 +1,8 @@
 // import logo from './logo.svg';
 // import FragmentDemo from './greet/FragmentDemo';
 import './App.css';
-import FocusInput from './greet/FocusInput';
+// import FocusInput from './greet/FocusInput';
+import ForwadRefParent from './greet/ForwadRefParent';
 // import DemoRef from './greet/DemoRef';
 // import ComposantParentPur from './greet/ComposantParentPur';
 // import ComposantPur from './greet/ComposantPur';
@@ -41,7 +42,8 @@ function App() {
       {/* <FragmentTable /> */}
       {/* <ComposantParentPur /> */}
       {/* <DemoRef /> */}
-      <FocusInput />
+      {/* <FocusInput /> */}
+      <ForwadRefParent />
     </div>
   );
 }
