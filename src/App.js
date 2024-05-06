@@ -1,8 +1,9 @@
 // import logo from './logo.svg';
 // import FragmentDemo from './greet/FragmentDemo';
 import './App.css';
+import PortalsDemo from './greet/PortalsDemo';
 // import FocusInput from './greet/FocusInput';
-import ForwadRefParent from './greet/ForwadRefParent';
+// import ForwadRefParent from './greet/ForwadRefParent';
 // import DemoRef from './greet/DemoRef';
 // import ComposantParentPur from './greet/ComposantParentPur';
 // import ComposantPur from './greet/ComposantPur';
@@ -43,7 +44,8 @@ function App() {
       {/* <ComposantParentPur /> */}
       {/* <DemoRef /> */}
       {/* <FocusInput /> */}
-      <ForwadRefParent />
+      {/* <ForwadRefParent /> */}
+      <PortalsDemo />  
     </div>
   );
 }
