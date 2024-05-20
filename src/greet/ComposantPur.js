@@ -11,4 +11,4 @@ class ComposantPur extends PureComponent {
   }
 }
 
-export default ComposantPur
+export default ComposantPur 

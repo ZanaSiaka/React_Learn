@@ -1,7 +1,9 @@
 // import logo from './logo.svg';
 // import FragmentDemo from './greet/FragmentDemo';
 import './App.css';
-import PortalsDemo from './greet/PortalsDemo';
+import ErrorBoundary from './greet/ErrorBoundary';
+import Hero from './greet/Hero';
+// import PortalsDemo from './greet/PortalsDemo';
 // import FocusInput from './greet/FocusInput';
 // import ForwadRefParent from './greet/ForwadRefParent';
 // import DemoRef from './greet/DemoRef';
@@ -45,7 +47,12 @@ function App() {
       {/* <DemoRef /> */}
       {/* <FocusInput /> */}
       {/* <ForwadRefParent /> */}
-      <PortalsDemo />  
+      {/* <PortalsDemo />   */}
+      <ErrorBoundary>
+        <Hero heroName="Batman"/>
+        <Hero heroName="Superman"/>
+        <Hero heroName="Joker"/>
+      </ErrorBoundary>
     </div>
   );
 }
