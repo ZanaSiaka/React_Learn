@@ -16,8 +16,8 @@ class FocusInput extends Component {
   render() {
     return (
       <div>
-        <RefClassComp />
-        <input ref={this.componentRef} />
+        <RefClassComp ref={this.componentRef}/>
+        <input  />
         <button onClick={this.buttonHandler}>FocusInput</button>
       </div>
     )
