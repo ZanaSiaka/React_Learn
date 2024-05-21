@@ -1,8 +1,10 @@
 // import logo from './logo.svg';
 // import FragmentDemo from './greet/FragmentDemo';
 import './App.css';
-import ErrorBoundary from './greet/ErrorBoundary';
-import Hero from './greet/Hero';
+import HoverCounter from './greet/HoverCounter';
+// import ClickCounter from './greet/ClickCounter';
+// import ErrorBoundary from './greet/ErrorBoundary';
+// import Hero from './greet/Hero';
 // import PortalsDemo from './greet/PortalsDemo';
 // import FocusInput from './greet/FocusInput';
 // import ForwadRefParent from './greet/ForwadRefParent';
@@ -48,11 +50,13 @@ function App() {
       {/* <FocusInput /> */}
       {/* <ForwadRefParent /> */}
       {/* <PortalsDemo />   */}
-      <ErrorBoundary>
+      {/* <ErrorBoundary>
         <Hero heroName="Batman"/>
         <Hero heroName="Superman"/>
         <Hero heroName="Joker"/>
-      </ErrorBoundary>
+      </ErrorBoundary> */}
+      {/* <ClickCounter /> */}
+      <HoverCounter />
     </div>
   );
 }
