@@ -1,8 +1,9 @@
 // import logo from './logo.svg';
 // import FragmentDemo from './greet/FragmentDemo';
 import './App.css';
+// import UpdateComponent from './greet/WithCounter';
 import HoverCounter from './greet/HoverCounter';
-// import ClickCounter from './greet/ClickCounter';
+import ClickCounter from './greet/ClickCounter';
 // import ErrorBoundary from './greet/ErrorBoundary';
 // import Hero from './greet/Hero';
 // import PortalsDemo from './greet/PortalsDemo';
@@ -55,8 +56,9 @@ function App() {
         <Hero heroName="Superman"/>
         <Hero heroName="Joker"/>
       </ErrorBoundary> */}
-      {/* <ClickCounter /> */}
+      <ClickCounter name='Ilham' />
       <HoverCounter />
+      {/* <UpdateComponent /> */}
     </div>
   );
 }
