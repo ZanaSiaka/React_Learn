@@ -1,9 +1,12 @@
 // import logo from './logo.svg';
 // import FragmentDemo from './greet/FragmentDemo';
 import './App.css';
+import ClickCounterTwo from './greet/ClickCounterTwo';
+import HoverCounterTwo from './greet/HoverCounterTwo';
+import User from './greet/User';
 // import UpdateComponent from './greet/WithCounter';
-import HoverCounter from './greet/HoverCounter';
-import ClickCounter from './greet/ClickCounter';
+// import HoverCounter from './greet/HoverCounter';
+// import ClickCounter from './greet/ClickCounter';
 // import ErrorBoundary from './greet/ErrorBoundary';
 // import Hero from './greet/Hero';
 // import PortalsDemo from './greet/PortalsDemo';
@@ -56,9 +59,11 @@ function App() {
         <Hero heroName="Superman"/>
         <Hero heroName="Joker"/>
       </ErrorBoundary> */}
-      <ClickCounter name='Ilham' />
-      <HoverCounter />
-      {/* <UpdateComponent /> */}
+      {/* <ClickCounter name='Ilham' /> */}
+      {/* <HoverCounter /> */}
+      <ClickCounterTwo />
+      <HoverCounterTwo />
+      <User render ={ (isLoggedIn) => isLoggedIn ? 'Zana' : 'Guest'} />
     </div>
   );
 }
