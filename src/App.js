@@ -1,9 +1,11 @@
 // import logo from './logo.svg';
 // import FragmentDemo from './greet/FragmentDemo';
-import './App.css';
-import ClickCounterTwo from './greet/ClickCounterTwo';
-import HoverCounterTwo from './greet/HoverCounterTwo';
-import User from './greet/User';
+import "./App.css";
+import ClickCounterTwo from "./greet/ClickCounterTwo";
+import HoverCounterTwo from "./greet/HoverCounterTwo";
+import Learn from "./greet/Learn";
+import User from "./greet/User";
+import {Router, Routes, Route} from 'react-router-dom'
 // import UpdateComponent from './greet/WithCounter';
 // import HoverCounter from './greet/HoverCounter';
 // import ClickCounter from './greet/ClickCounter';
@@ -30,10 +32,14 @@ import User from './greet/User';
 // import Liste from './greet/Liste';
 // import SaluerUser from './greet/saluerUser';
 
-
 function App() {
   return (
-    <div className="App">
+    <>
+
+        <Routes>
+          <Route path="/" element={<ClickCounterTwo/>} />
+          <Route path="/learn" element={<Learn/>} />
+        </Routes>
       {/* <Greet/>
       <h1> Y a quoi</h1>
       < Greet2 name="zana"/>
@@ -61,10 +67,10 @@ function App() {
       </ErrorBoundary> */}
       {/* <ClickCounter name='Ilham' /> */}
       {/* <HoverCounter /> */}
-      <ClickCounterTwo />
+      {/* <ClickCounterTwo />
       <HoverCounterTwo />
-      <User render ={ (isLoggedIn) => isLoggedIn ? 'Zana' : 'Guest'} />
-    </div>
+      <User render={(isLoggedIn) => (isLoggedIn ? "Zana" : "Guest")} /> */}
+    </>
   );
 }
 
